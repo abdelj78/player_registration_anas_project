@@ -22,7 +22,8 @@ namespace UserAuthApi.Controllers
         [HttpPost]
         public IActionResult CreateUser([FromBody] User user)
         {
-            if (user == null || string.IsNullOrEmpty(user.Email) || string.IsNullOrEmpty(user.Password))
+            if (user == null || string.IsNullOrEmpty(user.Username) 
+            || string.IsNullOrEmpty(user.Email) || string.IsNullOrEmpty(user.Password))
             {
                 return BadRequest("Invalid data.");
             }

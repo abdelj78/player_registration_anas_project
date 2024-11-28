@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abdel\\Desktop\\projet gaming Anas\\UserAuthApi\\UserAuthApi.csproj": {}
+    "C:\\Users\\abdel\\Desktop\\projet gaming Anas\\player_registration_anas_project\\UserAuthApi\\UserAuthApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abdel\\Desktop\\projet gaming Anas\\UserAuthApi\\UserAuthApi.csproj": {
+    "C:\\Users\\abdel\\Desktop\\projet gaming Anas\\player_registration_anas_project\\UserAuthApi\\UserAuthApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abdel\\Desktop\\projet gaming Anas\\UserAuthApi\\UserAuthApi.csproj",
+        "projectUniqueName": "C:\\Users\\abdel\\Desktop\\projet gaming Anas\\player_registration_anas_project\\UserAuthApi\\UserAuthApi.csproj",
         "projectName": "UserAuthApi",
-        "projectPath": "C:\\Users\\abdel\\Desktop\\projet gaming Anas\\UserAuthApi\\UserAuthApi.csproj",
+        "projectPath": "C:\\Users\\abdel\\Desktop\\projet gaming Anas\\player_registration_anas_project\\UserAuthApi\\UserAuthApi.csproj",
         "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abdel\\Desktop\\projet gaming Anas\\UserAuthApi\\obj\\",
+        "outputPath": "C:\\Users\\abdel\\Desktop\\projet gaming Anas\\player_registration_anas_project\\UserAuthApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",

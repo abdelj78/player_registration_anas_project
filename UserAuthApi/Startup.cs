@@ -1,3 +1,6 @@
+// Purpose: Contains the Startup class which is used to configure the application's request pipeline.
+// This class is responsible for adding services to the service container and configuring middleware.
+// This class is also responsible for configuring the application's request pipeline.
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

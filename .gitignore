@@ -1,0 +1,59 @@
+# Unity-generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Visual Studio/MonoDevelop project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Crash logs
+*.stacktrace
+
+# Exclude files created by Unity
+*.swp
+*.tmp
+*.bak
+*.last
+
+# Auto-generated lighting data
+/Assets/**/LightingData.asset
+
+# Exclude generated meta files (if using external version control)
+/Assets/**/*.meta
+
+# Addressable Asset System
+/Library/com.unity.addressables/
+
+# Editor plugin folders
+/Assets/Plugins/
+
+# Cache files
+/Assets/StreamingAssets/*.cache
+
+# Exclude builds and platform-specific settings
+*.apk
+*.unitypackage
+
+# JetBrains Rider project files
+.idea/
+*.idea/
+
+# Exclude custom settings
+/Settings.asset

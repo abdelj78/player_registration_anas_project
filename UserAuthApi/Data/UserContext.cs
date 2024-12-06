@@ -1,17 +1,4 @@
-/* code that was here alrady */
-// using Microsoft.EntityFrameworkCore;
-// using UserAuthApi.Models;
-
-// namespace UserAuthApi.Data
-// {
-//     public class UserContext : DbContext
-//     {
-//         public UserContext(DbContextOptions<UserContext> options) : base(options) { }
-
-//         public DbSet<User> Users { get; set; }
-//     }
-// }
-
+// Purpose: Contains the AppDbContext class which is used to interact with the database.
 using Microsoft.EntityFrameworkCore;
 using UserAuthApi.Models;
 
@@ -24,7 +11,7 @@ namespace UserAuthApi.Data
         {
         }
 
-        // This will act as your Users table
+        // This will act as the Users table
         public DbSet<User> Users { get; set; } //Users is the name of the table
     }
 }

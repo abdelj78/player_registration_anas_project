@@ -56,3 +56,4 @@ Current limitations and ideas for futur work:
 - ASP.NET Core Runtime 8.0.11
 - .NET Windows Desktop Runtime 8.0.11
 
+<img src="/media/1_UI.png" alt="real plant sound" width="750"/>

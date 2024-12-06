@@ -58,31 +58,31 @@ Current limitations and ideas for futur work:
 
 ## RESULTS
 User Interface overview. Very Basic to let game designers work on it.
-<img src="/media/1_UI.png" alt="ui overview" width="750"/>
+<img src="/media/1_UI.png" alt="ui overview" width="700"/>
 
 Errors dispalyed when input fields are empty and attempt to register or login.
-<img src="/media/2_UI_empty.png" alt="ui empty" width="750"/>
+<img src="/media/2_UI_empty.png" alt="ui empty" width="700"/>
 
 Error displayed for weak password. Here, only the length is assessed but some code (in regis.cs) can be uncommented to increase the strength requirements of the password.
-<img src="/media/3_weak_pass.png" alt="weak pass" width="750"/>
+<img src="/media/3_weak_pass.png" alt="weak pass" width="500"/>
 
 Error displayed for non matching password and confirmed password. 
-<img src="/media/4_pass_not_match.png" alt="pass not matched" width="750"/>
+<img src="/media/4_pass_not_match.png" alt="pass not matched" width="500"/>
 
 Successful registration.
-<img src="/media/5_reg_success.png" alt="successful registration" width="750"/>
+<img src="/media/5_reg_success.png" alt="successful registration" width="500"/>
 
 Error failed to login as non existing username.
-<img src="/media/6_log_fail.png" alt="login fail" width="750"/>
+<img src="/media/6_log_fail.png" alt="login fail" width="500"/>
 
 Successful login with username.
-<img src="/media/7_log_success1.png" alt="success login username" width="750"/>
+<img src="/media/7_log_success1.png" alt="success login username" width="500"/>
 
 Successful login with email.
-<img src="/media/8_log_success1email.png" alt="succ login with email" width="750"/>
+<img src="/media/8_log_success1email.png" alt="succ login with email" width="500"/>
 
 Successful login with email for a 2nd user. 
-<img src="/media/9_log_success2email.png" alt="successful login email2" width="750"/>
+<img src="/media/9_log_success2email.png" alt="successful login email2" width="500"/>
 
 Database overview.
-<img src="/media/database.png" alt="database" width="750"/>
+<img src="/media/database.png" alt="database" width="500"/>

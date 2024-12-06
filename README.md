@@ -106,6 +106,6 @@ Error registering already used email.<br>
 <img src="/media/11_regis_exist_email.png" alt="regis exist email" width="350"/>
 <br><br>
 
-Wrong format for email recognition.<br>
+Recognition of wrong format for email.<br>
 <img src="/media/12_invalid_email_format.png" alt="format email wrong" width="350"/>
 <br><br>

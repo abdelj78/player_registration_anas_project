@@ -103,6 +103,6 @@ Error registering already used username.<br>
 <br><br>
 
 Error registering already used email.<br>
-<img src="/media/10_regis_exist_username.png" alt="regis exist email" width="350"/>
+<img src="/media/11_regis_exist_email.png" alt="regis exist email" width="350"/>
 <br><br>
 

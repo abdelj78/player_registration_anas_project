@@ -6,38 +6,39 @@ Project aim: To develop a simple UI on Unity to register and login user credenti
 - /UI registration 2D: Unity project
 
 
-To start the API:
+## To start the API:
 - Be in the folder of the project in the terminal
 - dotnet restrore (optional but to update everyting if packages versions changed etc) 
 - dotnet build (to build the project) 
 - dotnet run (to run the project)
 
 
-To test api:
+## To test api:
 - Can directly POST using unity UI 
 - Can visualise database (.db) file directly
 - Use postman and post at corresponding http link a json such as: 
 
-http://localhost:5000/api/user/register<br>
-JSON to register example:<br>
+To register:<br>
+Use POST at: http://localhost:5000/api/user/register<br>
+Send JSON:<br>
 {<br>
   "username": "abdelj78",<br>
   "email": "abdel.rebani@gmail.com",<br>
   "password": "testpass"<br>
 }<br>
 
-http://localhost:5000/api/user/login <br>
-JSON to login<br>
+To login:<br>
+Use POST at: http://localhost:5000/api/user/login <br>
+Send JSON:<br>
 {<br>
   "email": "abdel.rebani@gmail.com",<br>
   "password": "testpass"<br>
 }<br>
 
 To see whole database:<br>
-GET at http://localhost:5000/api/user
+Use GET at: http://localhost:5000/api/user
 
 To reset the database, simply delete (rm) the .db file and a new one will be created when re-runing the .net project
-
 
 
 ## The methods to POST and GET from the database are asynchronous, benefits of These Changes:
@@ -46,11 +47,12 @@ To reset the database, simply delete (rm) the .db file and a new one will be cre
  
 
 ## Current limitations and ideas for futur work:
-- currentyl using SQLite with local database so not accessible through network.
-- low security as not using tokens or encryption in any process.
+- Currentyl using SQLite with local database so not accessible through network.
+- Low security as not using tokens or encryption in any process.
+- No constraints in input field lengths, could cause issue with limits of Database used.
 
 
-## .NET
+## .NET version
 - Using Microsoft .NET SDK 8.0.404 (Software Development Kit) 
 - .NET Runtime 8.0.11
 - ASP.NET Core Runtime 8.0.11
@@ -95,3 +97,12 @@ Successful login with email for a 2nd user. <br>
 
 Database overview.<br>
 <img src="/media/database.png" alt="database" width="750"/>
+
+Error registering already used username.<br>
+<img src="/media/10_regis_exist_username.png" alt="regis exist user" width="350"/>
+<br><br>
+
+Error registering already used email.<br>
+<img src="/media/10_regis_exist_username.png" alt="regis exist email" width="350"/>
+<br><br>
+

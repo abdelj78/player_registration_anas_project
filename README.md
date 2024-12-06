@@ -8,9 +8,9 @@ Project aim: To develop a simple UI on Unity to register and login user credenti
 
 To start the API:
 - Be in the folder of the project in the terminal
-- dotnet restrore //optional but to update everyting if packages versions changed etc 
-- dotnet build //to build the project 
-- dotnet run // to run the project
+- dotnet restrore (optional but to update everyting if packages versions changed etc) 
+- dotnet build (to build the project) 
+- dotnet run (to run the project)
 
 
 To test api:
@@ -18,22 +18,22 @@ To test api:
 - Can visualise database (.db) file directly
 - Use postman and post at corresponding http link a json such as: 
 
-http://localhost:5000/api/user/register
-JSON to register example:
-{
-  "username": "abdelj78",
-  "email": "abdel.rebani@gmail.com",
-  "password": "testpass"
-}
+http://localhost:5000/api/user/register<br>
+JSON to register example:<br>
+{<br>
+  "username": "abdelj78",<br>
+  "email": "abdel.rebani@gmail.com",<br>
+  "password": "testpass"<br>
+}<br>
 
-http://localhost:5000/api/user/login
-JSON to login
-{
-  "email": "abdel.rebani@gmail.com",
-  "password": "testpass"
-}
+http://localhost:5000/api/user/login <br>
+JSON to login<br>
+{<br>
+  "email": "abdel.rebani@gmail.com",<br>
+  "password": "testpass"<br>
+}<br>
 
-To see whole database:
+To see whole database:<br>
 GET at http://localhost:5000/api/user
 
 To reset the database, simply delete (rm) the .db file and a new one will be created when re-runing the .net project
@@ -45,9 +45,9 @@ To reset the database, simply delete (rm) the .db file and a new one will be cre
 - Improved user experience: The server can handle multiple requests more efficiently, ensuring that one slow query doesn’t block others.
  
 
-Current limitations and ideas for futur work:
-- currentyl using SQLite with local database so not accessible through network
-- low security as not using tokens for response for user after login
+## Current limitations and ideas for futur work:
+- currentyl using SQLite with local database so not accessible through network.
+- low security as not using tokens or encryption in any process.
 
 
 ## .NET

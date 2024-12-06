@@ -57,33 +57,41 @@ Current limitations and ideas for futur work:
 - .NET Windows Desktop Runtime 8.0.11
 
 ## RESULTS
-User Interface overview. Very Basic to let game designers work on it.
+User Interface overview. Very Basic to let game designers work on it.<br>
 <img src="/media/1_UI.png" alt="ui overview" width="700"/>
+<br><br>
 
-Errors dispalyed when input fields are empty and attempt to register or login.
+Errors dispalyed when input fields are empty and attempt to register or login.<br>
 <img src="/media/2_UI_empty.png" alt="ui empty" width="700"/>
+<br><br>
 
-Error displayed for weak password. Here, only the length is assessed but some code (in regis.cs) can be uncommented to increase the strength requirements of the password.
+Error displayed for weak password. Here, only the length is assessed but some code (in regis.cs) can be uncommented to increase the strength requirements of the password.<br>
 <img src="/media/3_weak_pass.png" alt="weak pass" width="500"/>
+<br><br>
 
-Error displayed for non matching password and confirmed password. 
+Error displayed for non matching password and confirmed password. <br>
 <img src="/media/4_pass_not_match.png" alt="pass not matched" width="500"/>
+<br><br>
 
-Successful registration.
+Successful registration.<br>
 <img src="/media/5_reg_success.png" alt="successful registration" width="500"/>
+<br><br>
 
-Error failed to login as non existing username.
+Error failed to login as non existing username.<br>
 <img src="/media/6_log_fail.png" alt="login fail" width="500"/>
+<br><br>
 
-Successful login with username.
-
+Successful login with username.<br>
 <img src="/media/7_log_success1.png" alt="success login username" width="500"/>
+<br><br>
 
-Successful login with email.
+Successful login with email.<br>
 <img src="/media/8_log_success1email.png" alt="succ login with email" width="500"/>
+<br><br>
 
-Successful login with email for a 2nd user. 
+Successful login with email for a 2nd user. <br>
 <img src="/media/9_log_success2email.png" alt="successful login email2" width="500"/>
+<br><br>
 
-Database overview.
+Database overview.<br>
 <img src="/media/database.png" alt="database" width="500"/>

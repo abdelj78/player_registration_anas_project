@@ -76,6 +76,7 @@ Error failed to login as non existing username.
 <img src="/media/6_log_fail.png" alt="login fail" width="500"/>
 
 Successful login with username.
+
 <img src="/media/7_log_success1.png" alt="success login username" width="500"/>
 
 Successful login with email.
